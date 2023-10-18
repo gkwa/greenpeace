@@ -1,17 +1,10 @@
-load("@io_bazel_rules_go//go:def.bzl", "go_library", "go_binary")
-
-go_library(
-    name = "com_github_taylormonacelli_goldbug",
-    importpath = "github.com/taylormonacelli/goldbug",
-    visibility = ["//visibility:public"],
-)
+load("@io_bazel_rules_go//go:def.bzl", "go_binary")
 
 go_binary(
     name = "greenpeace",
     srcs = ["main.go"],
     deps = [
         "//:greenpeace",
-        "com_github_taylormonacelli_goldbug",
     ],
     visibility = ["//visibility:public"],
 )
