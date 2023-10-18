@@ -1,10 +1,8 @@
 package greenpeace
 
-import (
-	"log/slog"
-)
+import "fmt"
 
 func Main() int {
-	slog.Debug("greenpeace", "test", true)
+	fmt.Println("test")
 	return 0
 }

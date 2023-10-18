@@ -1,7 +1,3 @@
-* greenpeace
+learn how to setup bazel to build go project by stepping through this amazing tutorial:
 
-This is a description of my greenpeace.
-
-** Usage
-
-To use my project, run this command: ./myproject --verbose
+https://www.youtube.com/playlist?list=PLdk2EmelRVLovmSToc_DK7F1DV_ZEljbx
