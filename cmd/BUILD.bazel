@@ -5,6 +5,7 @@ go_binary(
     srcs = ["main.go"],
     deps = [
         "//:greenpeace",
+        "@com_github_taylormonacelli_goldbug//:goldbug",
     ],
     visibility = ["//visibility:public"],
 )
