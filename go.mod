@@ -1,5 +1,5 @@
 module github.com/taylormonacelli/greenpeace
 
-go 1.21.1
+go 1.21
 
-require github.com/taylormonacelli/goldbug v0.0.6
+toolchain go1.21.1
