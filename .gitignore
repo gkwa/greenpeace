@@ -1,2 +1,5 @@
-
 dist/
+bazel-bin
+bazel-greenpeace
+bazel-out
+bazel-testlogs
